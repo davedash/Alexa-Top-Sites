@@ -1,3 +1,9 @@
-Install using setup.py:
+Install using pip:
+
+    pip install -e git://github.com/davedash/Alexa-Top-Sites.git#egg=alexa-top-sites
+
+
+
+or install using setup.py:
 
     python setup.py install
