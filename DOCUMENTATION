@@ -1,0 +1,12 @@
+This script downloads the alexa top 1M sites CSV, which is a zip archive, 
+unarchives it and extracts the top N (defaulting to 100) items.
+
+The primary method is `alexa.top_list(n)` which lists the top n sites in the
+following format: [(1, site), (2, site), ..., (n, site)] a list of tuples
+where each tuple is a rank, site pair.
+
+Powering this is a generator alexa_etl which initially downloads the zip file,
+unzip's it and extracts the ranks.
+
+This process is slow, and is meant for batch jobs to be cached locally rather
+than accessed directly via a web page.

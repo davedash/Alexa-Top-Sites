@@ -1,0 +1,14 @@
+This installs the alexa library which provides a method top_list which can
+give you the top N items from alexa's top_sites.
+
+For example:
+
+    >>> import alexa
+    >>> alexa.top_list(20)
+    [('1', 'google.com'), ('2', 'facebook.com'), ('3', 'yahoo.com'), ('4',
+    'youtube.com'), ('5', 'live.com'), ('6', 'wikipedia.org'), ('7',
+    'blogger.com'), ('8', 'msn.com'), ('9', 'baidu.com'), ('10',
+    'yahoo.co.jp'), ('11', 'myspace.com'), ('12', 'google.co.in'), ('13',
+    'twitter.com'), ('14', 'google.de'), ('15', 'qq.com'), ('16',
+    'microsoft.com'), ('17', 'rapidshare.com'), ('18', 'wordpress.com'),
+    ('19', 'google.fr'), ('20', 'google.co.uk')]
