@@ -33,4 +33,4 @@ def top_list(num=100):
 
 
 if __name__ == "__main__":
-    print alexa_list()
+    print top_list()
